@@ -52,7 +52,7 @@ function DesejaFazer(){
     return opcao
 }
 
-function login(nome, senha){
+function login(nomes, senhas){
     var nomeLogin = prompt("Digite o seu Login")
     var senhaLogin = prompt("Digite a sua senha")   
         for (var index1 = 0; index1 < nome.length; index1++) {
@@ -74,9 +74,9 @@ var nomeSup = []
 var senhaSup = []
 var index2 = 0
 
-function ExcluirCadastro(nome){
+function ExcluirCadastro(nomes){
     for (var index1 = 0; index1 < nome.length; index1++) {
-        if (nome == nome[index1]){
+        if (nomes == nome[index1]){
             nome[index1] = 0
             senha[index1] = 0
         }        
